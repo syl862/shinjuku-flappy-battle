@@ -1,0 +1,140 @@
+[
+  {
+    "id": "A1",
+    "role": "Gojo combat/selection",
+    "source": "https://www.pinterest.com/pin/gojo-satoru-ready-to-fight-png-image--1076923329632155666/",
+    "original": "https://i.pinimg.com/736x/ea/89/99/ea899970f1aca00dbdc8ffa2884085c6.jpg",
+    "file": "assets/art/gojo-provisional.png",
+    "status": "selected original inaccessible: DNS; provisional AI reconstruction from written brief",
+    "bytes": 1582026,
+    "sha256": "1d7e977fcd80bc42ca607728e8bdca336697a563ec509517b4984f593860d927"
+  },
+  {
+    "id": "B4",
+    "role": "Yuji combat/selection/afterimages",
+    "source": "https://id.pinterest.com/pin/yuji-itadori-png-image--1076923329632307199/",
+    "original": "https://i.pinimg.com/originals/f4/9c/e1/f49ce12975fa400964060a984e63a10e.png",
+    "file": "assets/art/yuji-provisional.png",
+    "status": "selected original inaccessible: DNS; provisional AI reconstruction; B1/B2/B3 not substituted",
+    "bytes": 731691,
+    "sha256": "0886decb69e17cd06a25148f663fb7d7b6a826885287ca389235b1d4588a110a"
+  },
+  {
+    "id": "C1",
+    "role": "Sukuna phase one",
+    "source": "https://br.pinterest.com/pin/591097519868961917/",
+    "original": "https://i.pinimg.com/736x/51/06/fb/5106fb5123a124561ad8b6c60a32f98a.jpg",
+    "file": "assets/art/sukuna1-provisional.png",
+    "status": "selected original inaccessible: DNS; provisional black-haired two-arm AI reconstruction",
+    "bytes": 1564709,
+    "sha256": "1fdc4cb6aa9bbcfbee1c60209b269125963bed09f0527dc4d8d6aa86cc52d555"
+  },
+  {
+    "id": "D1",
+    "role": "Sukuna phase two/transformation",
+    "source": "https://x.com/ricecoffeesalad/status/1705854567257424334",
+    "original": "https://pbs.twimg.com/media/F6xpNhwb0AAtiZC.jpg",
+    "file": "assets/art/sukuna2-provisional.png",
+    "status": "selected original timed out; provisional four-arm AI reconstruction",
+    "bytes": 1847322,
+    "sha256": "5581c8c4f9d8d8480e9a95327db6c15460bd68ad4a08c190294d75c85a145fc3"
+  },
+  {
+    "id": "E1-bg",
+    "role": "colored moving Shinjuku battlefield",
+    "source": "https://beebom.com/jujutsu-kaisen-chapter-235-gojo-vs-sukuna-fight-winner/",
+    "original": "https://static.beebom.com/wp-content/uploads/2023/09/sukuna-without-an-arm-heavily-injured-in-his-fight-against-gojo.jpg?w=750",
+    "file": "assets/art/shinjuku-adapted.png",
+    "status": "AI adapted scenery: people/dialogue removed, colored and extended; not authentic location reconstruction",
+    "bytes": 3394801,
+    "sha256": "d4cb4b1f5659e9ff0972ab8a14cfc911acbe570bbd902f7edc7d639fd9b6a3cb"
+  },
+  {
+    "id": "E1-victory",
+    "role": "shared victory lead-in",
+    "source": "same as E1-bg",
+    "original": "same as E1-bg",
+    "file": "assets/art/E1.jpg",
+    "status": "selected manga retained; runtime contain fit, no distortion",
+    "bytes": 156963,
+    "sha256": "f6ede6548e058656bf64164584840b445e7d71c7b013839b74216b5485c6db8f"
+  },
+  {
+    "id": "F1",
+    "role": "Gojo defeat",
+    "source": "https://www.hindustantimes.com/entertainment/jujutsu-kaisens-early-wrap-up-is-much-needed-after-gojos-depressing-return-101719643353147.html",
+    "original": "https://www.hindustantimes.com/ht-img/img/2024/06/29/optimize/gege_akutami_1695225795670_1719643744927.jpg",
+    "file": null,
+    "status": "HTTP403, no bypass; visible provisional Gojo sprite fallback; NOT a finished selected defeat CG"
+  },
+  {
+    "id": "F2",
+    "role": "Yuji defeat",
+    "source": "https://www.sportskeeda.com/anime/is-yuji-itadori-dead-jujutsu-kaisen-chapter-213",
+    "original": "https://staticg.sportskeeda.com/editor/2024/01/4a98c-17043935023843-1920.jpg",
+    "file": "assets/art/F2.jpg",
+    "status": "selected local manga; runtime border crop [15,32,1570,665]; game defeat, not canonical final death",
+    "bytes": 247287,
+    "sha256": "6d27f4959f932c9bad39e75d27b382bf40f9357addad7b2923f8b9c28c66b39e"
+  },
+  {
+    "id": "G1",
+    "role": "Gojo main victory",
+    "source": "same as E1-bg",
+    "original": "https://static.beebom.com/wp-content/uploads/2023/09/gojo-wins-against-sukuna-in-jujutsu-kaisen.jpg?w=750",
+    "file": "assets/art/G1.jpg",
+    "status": "selected local manga; runtime lower-panel crop [0,142,750,305]; adapted game outcome, not canon final victory",
+    "bytes": 73739,
+    "sha256": "328993b4954512f00fd0b9497803ac63e7e22f6d871af8769ec9678957662e44"
+  },
+  {
+    "id": "G2",
+    "role": "Yuji main victory",
+    "source": "https://www.3djuegos.lat/anime/jujutsu-kaisen-capitulo-268-batalla-yuji-sukuna-tiene-sorprendente-final/amp",
+    "original": "https://i.blogs.es/8eb9c0/sukuna-derrotado-jujutsu-kaisen/650_1200.jpeg",
+    "file": "assets/art/yuji-victory-clean-v2.png",
+    "status": "AI-assisted flat ink reconstruction: corrected photographed paper/perspective; final retains defeated Sukuna and Yuji. Not original scan pixels.",
+    "bytes": 3331238,
+    "sha256": "c9c15cee23c2bb165a0779d68e1f13c82acd9d80ff1c8e663b8e15a2b2a6a20c"
+  },
+  {
+    "id": "Purple",
+    "role": "Gojo ultimate cut-in",
+    "source": "user-supplied attachment, preserved art-direction/references/gojo-hollow-purple-reference.png",
+    "original": "local preserved original",
+    "file": "assets/art/purple-reference.png",
+    "status": "static source; runtime black-border crop and restrained push-in, followed by real beam",
+    "bytes": 250823,
+    "sha256": "f851303ec57c3b73aeae90b90e080e5c1f4a14bb5fffdbf10e2ffd5aaf2982b2"
+  },
+  {
+    "id": "BlackFlash",
+    "role": "Yuji actual Black Flash cut-in",
+    "source": "user-supplied codex-clipboard-8471904b-3892-4ee2-93d9-6954b4df84fe.png",
+    "original": "preserved art-direction/references/originals/black-flash.png",
+    "file": "assets/art/black-flash.png",
+    "status": "static source; only shown when charged attack fires",
+    "bytes": 206665,
+    "sha256": "c632485295ec6f998cb73681a88a96449c08a6961f6523229ee7dc8cfa759acf"
+  },
+  {
+    "id": "Music",
+    "role": "looping battle music",
+    "source": "user-supplied DJ_Lee - 雨爱 (超燃DJ版)_L.mp3",
+    "original": "existing integrated MP3",
+    "file": "assets/audio/rain-love.mp3",
+    "status": "unchanged copy, 5226478 bytes; independently controlled",
+    "bytes": 5226478,
+    "sha256": "817d82be4ad66571b7091b816e2c2a4beb673b5e8c9eb2e57de831276ada3628"
+  },
+  {
+    "id": "Icon",
+    "role": "favicon",
+    "source": "original authored SVG in baseline",
+    "original": "baseline file",
+    "file": "assets/images/favicon.svg",
+    "status": "unchanged",
+    "bytes": 184,
+    "sha256": "fe478ed58c1a7eeedd9caca670a814480419b92cb2cbdd703963090fb7c3888b"
+  }
+]
