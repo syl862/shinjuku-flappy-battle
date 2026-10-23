@@ -2,28 +2,28 @@
 
 Play: **https://syl862.github.io/shinjuku-flappy-battle/**
 
-Static HTML/CSS/JavaScript Canvas game. Choose Gojo or Yuji, Practice or Challenge. No account, backend or build step. GitHub Pages serves main from the repository root.
+Static HTML/CSS/JavaScript Canvas game, hosted from main / repository root through GitHub Pages. No account, backend, API key or build step is needed to play.
 
-## Controls and tactics
+## Controls and rules
 
-Space / click / tap the battlefield to rise. J uses the active skill; K uses 100 energy for the ultimate. Music and SFX have independent mute and volume controls. Music starts after Start Battle, loops, and lowers to 25% during defeat.
+Choose Gojo or Yuji and Practice or Challenge. Space / click / tap the battlefield to rise. J uses the active skill; K spends100 energy. Automatic shots pass through obstacles as a game adaptation. Three HP, Infinity, half-second post-hit protection, Sukuna transformation and domain attacks remain.
 
-Fly through either cyan opening in damaged pillars. Solid amber pillar shadows protect your entire core circle from Cover Slash. Stay covered through the wave, then move into an opening before the pillar arrives. Skills can destroy cover. Domain attacks require their own cyan safe lane. Automatic shots pass through pillars. The white core circle defines collision; illustrated limbs are decorative.
+Ruined architecture has one or two independently randomized openings with variable sizes, heights, widths and spacing. Grounded single-opening groups sometimes use large rocks (approximately25% of eligible ground sections). Dark recessed structural braces are decorative. Muted cyan edges identify passages; solid amber shadows protect the entire player core from Cover Slash. Domains require their own cyan safe lane. Skills can destroy cover.
 
-## Upgrade
+J holds the character aloft for0.9s; K for1.35s. A fresh Space press or canvas tap immediately exits hovering and jumps. Natural timeout releases at zero vertical speed to fall. Held/repeated keys do not queue actions. Hover protection and slow motion end on exit, while valid post-hit protection remains. Skill attacks continue on their original independent animation/impact timeline. A small hint says Space to resume flight.
 
-Real dual-opening pillars, moving cover and escape planning, structural skill clearing, cover-defense recaps, colored layered scenery, flap feedback, supplied Purple/Black Flash illustrations, phase transformation and character-specific manga result sequences. Responsive controls support desktop and mobile browsers.
+Music and SFX have independent volume/mute controls. The user-supplied MP3 loads from assets/audio/rain-love.mp3, loops after Start Battle, ducks to25% volume during defeat and restores on Retry. No MGG files are used.
 
-The existing browser storage namespace is unchanged, preserving valid previous records and per-mode bests at this same address. Only the latest five completed rounds are retained. Abandoned rounds do not count. Add ?test=1 to isolate synthetic test records.
+## Performance update
 
-## Assets
+Route search reuses time-dependent collision geometry and reconstructs one final trace. Ruin and sprite graphics are cached; structural destruction invalidates the corresponding ruin image immediately. HUD text and canvas-layout measurements avoid repeated unnecessary work. Physics, difficulty and route-validation rules remain.
 
-See ASSET_MANIFEST.json for exact runtime files, source references, adaptation labels and hashes. The user-supplied MP3 remains assets/audio/rain-love.mp3 and loads relatively; no MGG files are used.
+A controlled20-second local Edge comparison reduced frame gaps over50ms from90 to3 and frame-gap p95 from50.1ms to16.8ms. This is diagnostic local evidence, not a guarantee for every device or network; some timing spikes remained. Four runtime JS syntax checks and67 logic checks passed.48 route scenarios matched the original solver exactly, and6400 collision samples matched the original geometry. Native keyboard/mobile-emulated pointer and controlled hover/state checks were performed on the release source. Physical-phone feel, subjective mixing and broad-device performance still need human playtesting.
 
-Four transparent combat sprites remain explicitly labeled provisional AI reconstructions because selected A1/B4/C1/D1 originals were inaccessible. Selected Gojo defeat F1 remains a visible fallback. Yuji victory G2 is an AI-assisted flat reconstruction retaining defeated Sukuna and Yuji, not an unchanged original manga scan. Combat rules and results are game adaptations.
+## Records and art status
 
-## Verification
+The original browser history and per-mode best keys are unchanged at this same sharing address. The latest five completed rounds are retained; abandoned rounds do not count. Add ?test=1 for clearly labeled isolated synthetic test records.
 
-The release source passed 16 regression and 19 upgrade logic checks plus syntax checks on all four JavaScript files. Sampled route replay and automated pilots are diagnostic, not human scores or proof of universal fairness. Local Edge checks covered inputs, image/music loading, looping, independent audio controls and controlled result sequences. Human pacing, physical touch feel and native hidden-tab pause/resume still need manual playtesting.
+ASSET_MANIFEST.json records source references and adaptation labels. Four transparent combat sprites remain labeled provisional AI reconstructions; selected originals A1/B4/C1/D1 were inaccessible. Selected Gojo defeat F1 remains a visible fallback. Yuji victory G2 is an AI-assisted reconstruction, not an unchanged manga scan. No new image assets were introduced in the performance update.
 
-For local use, serve this directory with any static HTTP server. Node.js is not required to play. Future updates pushed to main rebuild this same sharing URL.
+For local use, serve this folder with any static HTTP server, or use start-game.cmd with Python3. Node.js is unnecessary to play. Future pushes to main update this same URL.
